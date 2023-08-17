@@ -32,4 +32,9 @@ nav ul li a{
     font-size: 15px;
     text-transform: uppercase;
     text-decoration: none;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background: yellow;
+    transition: 0.5s;
 }
