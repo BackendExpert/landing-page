@@ -36,6 +36,8 @@ nav ul li a{
     padding: 7px 13px;
 }
 a.active,a:hover{
-    background: yellow;
+    background: rgb(255, 153, 0);
     transition: 0.5s;
+    color: black;
+    font-weight: bold;
 }
