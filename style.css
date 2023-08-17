@@ -77,11 +77,14 @@ a.active,a:hover{
     border-radius: 50px;
     background: transparent;
     color: orange;
+    transition: 0.5s;
+    font-weight: bold;
 }
 .home .product-btn:hover{
     cursor: pointer;
     background: orange;
     color: black;
+    font-weight: bold;
 }
 
 @media (max-width: 952px){
@@ -119,5 +122,8 @@ a.active,a:hover{
     }
     .home h1, h3{
         padding-left: 50px;
+    }
+    .home .product-btn{
+        margin: 20px 50px;
     }
 }
