@@ -41,3 +41,89 @@ a.active,a:hover{
     color: black;
     font-weight: bold;
 }
+.btncheck{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+#check, .btncheck{
+    display: none;
+}
+.home{
+    background: url("https://wallpapercave.com/dwp1x/wp3710515.jpg") no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+.home h1,h3 {
+    color: white;
+    padding: 0 0 0 150px;
+}
+.home a{
+    margin-left: 150px;
+}
+.home h1{
+    padding-top: 200px;
+    font-size: 100px;
+}
+
+.home .product-btn{
+    margin: 20px 150px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 1px solid orange;
+    border-radius: 50px;
+    background: transparent;
+    color: orange;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.home .product-btn:hover{
+    cursor: pointer;
+    background: orange;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 952px){
+    .btncheck{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover, a.activer{
+        background: rgb(255, 153, 0);
+        color: black;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .home h1{
+        padding-top: 200px;
+        font-size: 50px;        
+    }
+    .home h1, h3{
+        padding-left: 50px;
+    }
+    .home .product-btn{
+        margin: 20px 50px;
+    }
+}
