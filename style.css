@@ -41,3 +41,11 @@ a.active,a:hover{
     color: black;
     font-weight: bold;
 }
+.btncheck{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
