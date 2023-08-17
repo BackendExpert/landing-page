@@ -72,8 +72,9 @@ a.active,a:hover{
         height: 100vh;
         background-color: black;
         top: 80px;
-        left: 0;
+        left: -100%;
         text-align: center;
+        transition: all 0.5s;
     }
     nav ul li{
         display: block;
