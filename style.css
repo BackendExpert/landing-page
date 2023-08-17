@@ -57,7 +57,7 @@ a.active,a:hover{
     background-size: cover;
     height: calc(100vh - 80px);
 }
-.home h1,h3{
+.home h1,h3 {
     color: white;
     padding: 0 0 0 150px;
 }
@@ -70,7 +70,7 @@ a.active,a:hover{
 }
 
 .home .product-btn{
-    margin-top: 20px;
+    margin: 20px 150px;
     padding: 10px 30px;
     font-size: 20px;
     border: 1px solid orange;
@@ -80,6 +80,8 @@ a.active,a:hover{
 }
 .home .product-btn:hover{
     cursor: pointer;
+    background: orange;
+    color: black;
 }
 
 @media (max-width: 952px){
