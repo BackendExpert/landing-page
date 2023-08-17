@@ -49,3 +49,6 @@ a.active,a:hover{
     margin-right: 40px;
     cursor: pointer;
 }
+#check{
+    display: none;
+}
