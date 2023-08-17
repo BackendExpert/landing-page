@@ -88,3 +88,11 @@ a.active,a:hover{
     background-size: cover;
     height: calc(100vh - 80px);
 }
+.home h1,h3{
+    color: white;
+    padding: 0 0 0 150px;
+}
+.home h1{
+    padding-top: 200px;
+    font-size: 100px;
+}
