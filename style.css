@@ -49,20 +49,11 @@ a.active,a:hover{
     margin-right: 40px;
     cursor: pointer;
 }
-#check{
+#check, .btncheck{
     display: none;
 }
 
 @media (max-width: 952px){
-    label.logo{
-        font-size: 30px;
-        padding-left: 50px;
-    }
-    nav ul li a{
-        font-size: 16px;
-    }
-}
-@media (max-width: 858px){
     .btncheck{
         display: block;
     }
@@ -93,7 +84,7 @@ a.active,a:hover{
     }
 }
 section{
-    background: url("https://wallpapercave.com/dwp1x/wp3710553.jpg") no-repeat;
+    background: url("https://wallpapercave.com/dwp1x/wp3710497.jpg") no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
 }
