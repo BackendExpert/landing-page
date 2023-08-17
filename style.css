@@ -78,6 +78,8 @@ a.active,a:hover{
     }
     nav ul li{
         display: block;
+        margin: 50px 0;
+        line-height: 30px;
     }
     nav ul li a{
         font-size: 20px;
@@ -85,5 +87,8 @@ a.active,a:hover{
     a:hover, a.activer{
         background: rgb(255, 153, 0);
         color: black;
+    }
+    #check:checked ~ ul{
+        left: 0;
     }
 }
