@@ -57,13 +57,20 @@ a.active,a:hover{
     background-size: cover;
     height: calc(100vh - 80px);
 }
-.home h1,h3{
+.home h1,h3,a{
     color: white;
     padding: 0 0 0 150px;
 }
 .home h1{
     padding-top: 200px;
     font-size: 100px;
+}
+.home .product-btn{
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 1px solid orange;
+    border-radius: 50px;
 }
 
 @media (max-width: 952px){
