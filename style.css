@@ -8,5 +8,36 @@
 nav{
     background: black;
     height: 80px;
+    width: 100%;
     color: white;
+}
+label.logo{
+    color: white;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 7px 13px;
+}
+a.active,a:hover{
+    background: rgb(255, 153, 0);
+    transition: 0.5s;
+    color: black;
+    font-weight: bold;
 }
