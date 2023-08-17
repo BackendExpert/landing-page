@@ -92,3 +92,8 @@ a.active,a:hover{
         left: 0;
     }
 }
+section{
+    background: url("https://wallpapercave.com/dwp1x/wp3710553.jpg") no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
