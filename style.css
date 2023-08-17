@@ -8,5 +8,13 @@
 nav{
     background: black;
     height: 80px;
+    width: 100%;
     color: white;
+}
+label.logo{
+    color: white;
+    font: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
 }
