@@ -27,3 +27,8 @@ nav ul li{
     line-height: 80px;
     margin: 0 5px;
 }
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
