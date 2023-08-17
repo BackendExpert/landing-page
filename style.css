@@ -52,6 +52,19 @@ a.active,a:hover{
 #check, .btncheck{
     display: none;
 }
+.home{
+    background: url("https://wallpapercave.com/dwp1x/wp3710515.jpg") no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+.home h1,h3{
+    color: white;
+    padding: 0 0 0 150px;
+}
+.home h1{
+    padding-top: 200px;
+    font-size: 100px;
+}
 
 @media (max-width: 952px){
     .btncheck{
@@ -82,17 +95,11 @@ a.active,a:hover{
     #check:checked ~ ul{
         left: 0;
     }
-}
-.home{
-    background: url("https://wallpapercave.com/dwp1x/wp3710497.jpg") no-repeat;
-    background-size: cover;
-    height: calc(100vh - 80px);
-}
-.home h1,h3{
-    color: white;
-    padding: 0 0 0 150px;
-}
-.home h1{
-    padding-top: 200px;
-    font-size: 100px;
+    .home h1{
+        padding-top: 200px;
+        font-size: 50px;        
+    }
+    .home h1, h3{
+        padding-left: 50px;
+    }
 }
