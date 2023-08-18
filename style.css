@@ -102,6 +102,12 @@ footer .footer-img{
     border-radius: 5px;
     padding: 20px 0;
 }
+footer .useful-links{
+    padding: 10px 20px;
+}
+footer .useful-links li{
+    padding: 10px 0;
+}
 
 @media (max-width: 952px){
     .btncheck{
