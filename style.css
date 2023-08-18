@@ -196,4 +196,7 @@ footer .useful-links li{
     footer{
         text-align: center;
     }
+    .product-hr{
+        display: block;
+    }
 }
