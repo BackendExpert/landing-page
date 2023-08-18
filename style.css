@@ -114,6 +114,9 @@ footer .useful-links li{
 .main-content h2{
     text-align: center;
 }
+.product-hr{
+    display: none;
+}
 
 .watch-img1{
     background: url('https://wallpapercave.com/dwp1x/wp1853720.jpg');
