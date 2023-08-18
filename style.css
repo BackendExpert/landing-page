@@ -87,6 +87,73 @@ a.active,a:hover{
     font-weight: bold;
 }
 
+footer{
+    padding: 60px 0;
+    color: white;
+    background-image:  linear-gradient(to bottom, rgba(8, 8, 8, 0.945), rgba(14, 14, 14, 0.911)), url('https://wallpapercave.com/dwp1x/wp2168277.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+footer .footer-img{
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+footer .useful-links{
+    padding: 10px 20px;
+}
+footer .useful-links li{
+    padding: 10px 0;
+}
+.main-content{
+    padding: 50px 0;
+}
+.main-content h2{
+    text-align: center;
+}
+.product-hr{
+    display: none;
+}
+
+.watch-img1{
+    background: url('https://wallpapercave.com/dwp1x/wp1853720.jpg');
+}
+
+.watch-img2{
+    background: url('https://wallpapercave.com/dwp1x/wp2168287.jpg');
+}
+
+.watch-img1, .watch-img2{
+    height: 500px;
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.buy-now{
+    padding: 10px 50px;
+    margin: 30px 0;
+    border: none;
+    background: orange;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.buy-now:hover{
+    cursor: pointer;
+    color: orange;
+    border: 2px solid orange;
+    background: transparent;
+    box-shadow: 10px 10px 8px #888888;
+}
+
 @media (max-width: 952px){
     .btncheck{
         display: block;
@@ -125,5 +192,11 @@ a.active,a:hover{
     }
     .home .product-btn{
         margin: 20px 50px;
+    }
+    footer{
+        text-align: center;
+    }
+    .product-hr{
+        display: block;
     }
 }
