@@ -108,7 +108,12 @@ footer .useful-links{
 footer .useful-links li{
     padding: 10px 0;
 }
-
+.main-content{
+    padding: 50px 0;
+}
+.main-content h2{
+    text-align: center;
+}
 
 
 @media (max-width: 952px){
