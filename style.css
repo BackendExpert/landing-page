@@ -114,8 +114,7 @@ footer .useful-links li{
 .main-content h2{
     text-align: center;
 }
-.watch-img{
-    background: url('https://wallpapercave.com/dwp1x/wp1853720.jpg');
+.watch-img1, .watch-img2{
     height: 500px;
     width: 90%;
     background-position: center;
@@ -123,6 +122,13 @@ footer .useful-links li{
     background-repeat: no-repeat;
     border-radius: 15px;
     margin: 20px 0;
+}
+.watch-img1{
+    background: url('https://wallpapercave.com/dwp1x/wp1853720.jpg');
+}
+
+.watch-img2{
+    background: url('https://wallpapercave.com/dwp1x/wp1853720.jpg');
 }
 .buy-now{
     padding: 10px 50px;
