@@ -124,6 +124,22 @@ footer .useful-links li{
     border-radius: 15px;
     margin: 20px 0;
 }
+.buy-now{
+    padding: 10px 50px;
+    margin: 30px 0;
+    border: none;
+    background: orange;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.buy-now:hover{
+    cursor: pointer;
+    color: orange;
+    border: 2px solid orange;
+    box-shadow: ;
+}
 
 @media (max-width: 952px){
     .btncheck{
