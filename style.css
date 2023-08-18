@@ -94,7 +94,7 @@ footer{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 100%;
 }
 footer .footer-img{
     width: 250px;
@@ -138,6 +138,7 @@ footer .useful-links li{
     cursor: pointer;
     color: orange;
     border: 2px solid orange;
+    background: transparent;
     box-shadow: 10px 10px 8px #888888;
 }
 
