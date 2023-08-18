@@ -114,7 +114,9 @@ footer .useful-links li{
 .main-content h2{
     text-align: center;
 }
-
+.watch-img{
+    background: url('');
+}
 
 @media (max-width: 952px){
     .btncheck{
