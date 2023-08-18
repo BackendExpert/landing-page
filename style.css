@@ -89,6 +89,8 @@ a.active,a:hover{
 
 footer{
     padding: 60px 0;
+    color: white;
+    background: black;
 }
 
 @media (max-width: 952px){
