@@ -181,4 +181,7 @@ footer .useful-links li{
     .home .product-btn{
         margin: 20px 50px;
     }
+    footer{
+        text-align: center;
+    }
 }
