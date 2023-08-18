@@ -100,7 +100,7 @@ footer .footer-img{
     width: 250px;
     height: auto;
     border-radius: 5px;
-    
+    padding: 20px 0;
 }
 
 @media (max-width: 952px){
